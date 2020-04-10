@@ -1,0 +1,47 @@
+
+
+.title,.info{
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.title{
+    text-shadow: 1px 1px 2px black;
+}
+.gr1{
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+background-color:  aliceblue;
+}
+.gr2{
+    margin-top:5rem;
+}
+.gr1:hover{
+    transition: 0.4s;
+    background-color:  aliceblue;
+    box-shadow: 5px 5px 10px 5px #888888;
+    cursor: pointer;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+
+    }
+.gr1 .img{
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+
+}
+.info span{
+    cursor: pointer;
+}
+@media only screen and (max-width: 300px){
+    .title{
+        font-size: 26px;
+        font-weight: 900;
+        color:aliceblue;
+        transition: 0.5s;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 2px black;
+
+    }
+}
